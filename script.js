@@ -7,7 +7,7 @@ function threeSum(arr, target) {
 	  arr.unshift(rem);
 	  target=target/10;
   }
-	return sum;
+	return arr;
 }
 
 module.exports = threeSum;
