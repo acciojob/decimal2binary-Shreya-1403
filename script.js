@@ -1,10 +1,10 @@
 function threeSum(arr, target) {
 // write your code here
 	let i=0;
-	let sum=0;
+	let rem=0;
   while(target!=0){
-	  let rem=target%10;
-	  sum=sum*10+rem;
+	  rem=target%10;
+	  arr.unshift(rem);
 	  target=target/10;
   }
 	return sum;
