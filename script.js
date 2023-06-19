@@ -3,9 +3,9 @@ function threeSum(arr, target) {
 	let i=0;
 	let rem=0;
   while(target!=0){
-	  rem=target%10;
+	  rem=target%2;
 	  arr.unshift(rem);
-	  target=target/10;
+	  target=target/2;
   }
 	console.log(arr);
 }
