@@ -9,7 +9,7 @@ function decimalToBinary(num) {
 		i++;
 	}
 	arr.reverse();
-	return arr;
+	console.log(arr);
 }
 
 window.decimalToBinary = decimalToBinary;
