@@ -2,9 +2,10 @@ function decimalToBinary(num) {
   // Write your code here
 	let arr=[];
 	let i=0;
+	let r;
 	while(num!=0){
-		let r=num%2;
-		arr[i]=r;
+		r=num%2;//0
+		arr[i]=r;//0
 		num=num/2;
 		i++;
 	}
