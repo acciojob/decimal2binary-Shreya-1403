@@ -3,12 +3,12 @@ function decimalToBinary(num) {
 	let str;
 	let r;
 	while(num!=0){
-		r=num%2;//0 1 0
-		str+=r;//010 
-		num=num/2;//2
+		r=num%2;//0 1 0 1
+		str+=r;//0101 
+		num=num/2;//0
 	}
 	str.reverse();
-	console.log(str);
+	return str;
 }
 
 window.decimalToBinary = decimalToBinary;
