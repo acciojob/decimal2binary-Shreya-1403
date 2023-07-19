@@ -8,7 +8,8 @@ function decimalToBinary(num) {
 		num=num/2;//0
 	}
 	str.reverse();
-	return str;
+	let ans=Number(str)
+	return ans;
 }
 
 window.decimalToBinary = decimalToBinary;
