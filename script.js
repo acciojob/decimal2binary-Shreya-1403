@@ -7,7 +7,6 @@ function decimalToBinary(num) {
 		r=num%2;//0 1 0 1
 		arr[i]=r;//0101 
 		num=Math.floor(num/2);//0
-		console.log(num);
 		i++;
 	}
 	arr.reverse();
