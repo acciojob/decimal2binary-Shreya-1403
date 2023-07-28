@@ -10,7 +10,8 @@ function decimalToBinary(num) {
 		i++;
 	}
 	arr.reverse();
-	return arr;
+	let ans=arr.toString();
+	return ans;
 }
 
 window.decimalToBinary = decimalToBinary;
